@@ -1,4 +1,4 @@
-# 🧩 AWS Cloud Practitioner Journey – Lab 5 Completed!  
+#  AWS Cloud Practitioner Journey – Lab 5 Completed!  
 ## Amazon RDS (Relational Database Service)
 
 I completed Lab 5: Amazon RDS (Relational Database Service),  
