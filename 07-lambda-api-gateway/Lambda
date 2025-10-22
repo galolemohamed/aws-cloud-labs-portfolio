@@ -1,0 +1,25 @@
+# AWS Lab 7 – Lambda + API Gateway
+
+## Overview
+This project demonstrates the creation of a serverless AWS Lambda function triggered by an API Gateway REST endpoint. The Lambda function serves random FAQ entries, showcasing event-driven architecture and serverless computing concepts.
+
+## Key Accomplishments
+- Created a Lambda function that serves random FAQ entries.
+- Configured an API Gateway REST endpoint to trigger the Lambda function.
+- Tested the Lambda function via API endpoint and Lambda console test events.
+- Monitored Lambda execution using CloudWatch logs.
+
+## What I Learned
+- Serverless computing: Run code without managing servers; automatic scaling based on events.
+- Event-driven architecture: Lambda responds to triggers like API calls, S3 uploads, DynamoDB updates, and more.
+- Stateless functions: Stateless design ensures scalable execution.
+- Monitoring & debugging: CloudWatch logs provide detailed insights into execution and performance.
+- Integration skills: API Gateway allows HTTP access to Lambda functions.
+
+
+## How to Test
+1. Deploy the Lambda function in your AWS account.
+2. Create an API Gateway REST endpoint to trigger the Lambda function.
+3. Invoke the API endpoint in a browser or via 'curl'
+curl https://w4x86u8wxh.execute-api.us-east-1.amazonaws.com/myDeployment/FAQ
+
