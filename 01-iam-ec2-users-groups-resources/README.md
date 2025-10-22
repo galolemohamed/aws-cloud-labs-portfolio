@@ -1,4 +1,4 @@
-# 🧩 AWS Cloud Practitioner Essentials Lab 01  
+#  AWS Cloud Practitioner Essentials Lab 01  
 ## EC2, Users, Groups, and Resources
 
 I successfully completed my first AWS Cloud Practitioner Essentials Lab.  
@@ -6,7 +6,7 @@ It was a great opportunity to practice what I’ve been learning by applying rea
 
 ---
 
-### ✅ What I Worked On
+###  What I Worked On
 - Creating and managing IAM users.  
 - Assigning users to groups with specific permissions (S3-Support, EC2-Support, EC2-Admin).  
 - Practicing least privilege access by restricting users from performing actions outside their roles.  
@@ -15,7 +15,7 @@ It was a great opportunity to practice what I’ve been learning by applying rea
 
 ---
 
-### 💡 Key Takeaway
+###  Key Takeaway
 Cloud security starts with the principle of least privilege 
 giving users only the access they need and nothing more.
 
@@ -28,5 +28,5 @@ Essential skills for any Cloud Practitioner or AWS Solutions Architect in the ma
 
 ---
 
-### 🚀 What’s Next
+###  What’s Next
 I’m excited to keep building on this foundation as I progress toward my **AWS Cloud Practitioner Certification**.
