@@ -1,4 +1,4 @@
-# 💽 AWS Cloud Practitioner Journey – Lab 4 Completed!
+#  AWS Cloud Practitioner Journey – Lab 4 Completed!
 
 ## Amazon Elastic Block Store (EBS) – Volumes and Snapshots
 
