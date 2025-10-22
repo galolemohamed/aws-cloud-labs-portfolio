@@ -29,5 +29,15 @@ This lab provided hands-on experience with configuring, protecting, monitoring, 
 - Tested stop protection, verified behavior on repeated attempts, and confirmed successful restart procedures.
 
 ---
+## 🧩 Simple EC2 User Data Script
 
+To automate web server setup, I used a lightweight EC2 User Data script.  
+It installs Apache, starts the service, and serves a simple “Hello” webpage automatically at instance launch.
+
+```bash
+#!/bin/bash
+dnf install -y httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello From Your Web Server!</h1></html>' > /var/www/html/index.html
 
