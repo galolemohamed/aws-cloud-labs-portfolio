@@ -1,4 +1,4 @@
-# ⚙️ AWS Cloud Practitioner Journey – Lab 6 Completed!  
+# ⚙️ AWS Cloud Practitioner Journey – Lab 6 Completed!  Auto Scaling
 ## High Availability and Auto Scaling with Amazon EC2
 
 I’m excited to share that I’ve completed Lab 6: High Availability and Auto Scaling with Amazon EC2. 
