@@ -1,4 +1,4 @@
-# 🌐 AWS Cloud Practitioner Journey Update – Lab 2 Completed!
+#  AWS Cloud Practitioner Journey Update – Lab 2 Completed!
 
 ## VPC, Networking, and EC2 Infrastructure Setup
 
@@ -7,7 +7,7 @@ This lab was a deep dive into building the foundational networking and compute r
 
 ---
 
-### ✅ What I Accomplished
+###  What I Accomplished
 
 #### Task 1 – VPC Creation
 - Designed and deployed a custom Virtual Private Cloud (VPC) to logically isolate AWS resources.
