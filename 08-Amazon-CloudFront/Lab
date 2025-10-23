@@ -1,0 +1,25 @@
+AWS Cloud Journey Update Lab Completed!
+
+ Amazon CloudFront
+
+I’m excited to share that I’ve successfully completed another Lab : Amazon CloudFront, where I learned how AWS securely delivers content across the globe with high performance and low latency.
+
+ What I Built
+
+Stored a publicly accessible image in an Amazon S3 bucket.
+
+Created a CloudFront web distribution to deliver the image globally through AWS edge locations.
+
+Tested the CloudFront URL to verify faster content delivery.
+
+Deleted resources (CloudFront & S3) to ensure proper cost management and cleanup.
+
+Key Takeaways  
+
+Amazon CloudFront acts as a Content Delivery Network (CDN) that caches data at edge locations, reducing latency for users worldwide.
+
+Integrating S3 with CloudFront improves scalability, performance, and security for web applications.
+
+Understanding CDN behavior is essential for cloud architects and security engineers optimizing global delivery.
+
+This hands-on lab strengthened my foundation in AWS networking, caching, and global content delivery  a key step toward my AWS Solutions Architect Associate goal.
