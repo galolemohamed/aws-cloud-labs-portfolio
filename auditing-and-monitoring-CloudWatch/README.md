@@ -1,5 +1,7 @@
-AWS Auditing and Monitoring Hands-on Lab Over the past few days, 
-I’ve been deepening my cloud security skills by completing several AWS hands-on labs focused on auditing, monitoring, and securing AWS environments. 
+AWS Auditing and Monitoring Hands-on Lab 
+
+
+Over the past few days, I’ve been deepening my cloud security skills by completing several AWS hands-on labs focused on auditing, monitoring, and securing AWS environments. 
 Here’s what I covered: 
 Reviewed IAM user permissions to identify overly permissive roles. 
 Used the AWS IAM Policy Simulator to validate access controls and enforce least privilege. 
