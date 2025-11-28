@@ -1,0 +1,114 @@
+3-TIER ARCHITECTURE
+
+
+Building a highly available web application (Load Balancer + Auto Scaling + secure 3-tier architecture)
+
+I finished a hands-on AWS lab where I transformed a single-instance application into a highly available system running across two Availability Zones. The lab took about 40 minutes and covered VPC inspection, load balancing, auto scaling, security hardening, and high availability testing.
+
+What I built:
+
+A public Application Load Balancer distributed across two Availability Zones
+
+A target group with faster health checks
+
+A custom machine image created from an existing web server
+
+A launch configuration to deploy identical web servers automatically
+
+An Auto Scaling Group running in private subnets across two Availability Zones
+
+Secure 3-tier architecture using strict security group rules:
+
+Traffic from the internet allowed only to the load balancer
+
+Load balancer allowed to communicate only with the application layer
+
+Application layer allowed to communicate only with the database layer
+
+What I did:
+1. Inspected the VPC
+
+Reviewed the virtual network structure.
+
+Analyzed public and private subnets.
+
+Checked routing rules, internet access, and internal outbound traffic.
+
+Audited existing security group rules and tightened access where necessary.
+
+2. Created an Application Load Balancer
+
+Deployed a public-facing load balancer across two Availability Zones.
+
+Created a new security group allowing only web traffic from the internet.
+
+Configured a target group with optimized health checks.
+
+Connected the load balancer to the target group.
+
+3. Created a Custom Machine Image
+
+Took a running web server.
+
+Created an image from it to ensure consistency across new deployments.
+
+4. Built a Launch Configuration
+
+Used the custom image.
+
+Attached a secure application-layer security group.
+
+Enabled monitoring and permissions.
+
+Added bootstrapping scripts to:
+
+Install required software
+
+Deploy the web app
+
+Start the web service on launch
+
+5. Created an Auto Scaling Group
+
+Deployed instances into private subnets across multiple Availability Zones.
+
+Attached it to the target group.
+
+Configured health checks and scaling limits.
+
+Ensured the group always maintained two running instances.
+
+6. Strengthened the 3-Tier Security Model
+
+The application layer only accepts traffic from the load balancer.
+
+The database layer only accepts traffic from the application layer.
+
+No direct internet exposure for the app or database layers.
+
+This design ensures secure traffic flow:
+Internet → Load Balancer → Application Layer → Database Layer
+
+7. Tested High Availability
+
+Verified both instances became healthy behind the load balancer.
+
+Confirmed traffic was load-balanced across Availability Zones.
+
+Manually terminated an application instance.
+
+Verified traffic continued without disruption.
+
+Confirmed auto scaling replaced the failed instance automatically.
+
+What I learned:
+
+ How to design a highly available architecture using multiple Availability Zones
+ How to secure each layer using security group references instead of IP ranges
+ How load balancers and auto scaling work together for reliability
+ How private subnets and NAT improve security
+ How high availability works during instance failures
+
+Why this matters
+
+This architecture demonstrates how AWS enables fault tolerance, scalability, and strong security by design. These are core patterns used in real-world production systems to ensure applications remain online even during failures.
